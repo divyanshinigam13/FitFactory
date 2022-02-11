@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="126dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="328dp"
+        android:src="@drawable/ellipse_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginRight="328dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="412dp"
+        android:layout_height="550dp"
+
+        android:layout_marginTop="272dp"
+        android:src="@drawable/rectangle_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="113dp"
+        android:layout_height="83dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/heart"
+        app:layout_constraintBottom_toTopOf="@+id/loginbutton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="98dp"
+
+        android:shadowColor="#EB555353"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="You Fit"
+        android:textColor="@color/black"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+
+        android:text="Your health,your way!"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/loginbutton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="57dp"
+
+        android:layout_marginTop="9dp"
+
+        android:text="Organise, track and personalise your health, in a simple way!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/loginbutton1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbg2"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.749" />
+
+    <Button
+        android:id="@+id/signupbutton1"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:background="@drawable/buttonbg"
+        android:text="Sign up"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbutton1"
+        app:layout_constraintVertical_bias="0.419" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
