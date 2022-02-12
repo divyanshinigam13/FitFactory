@@ -13,15 +13,20 @@
         <activity
             android:name=".Activities.LoginAndStarting.signup"
             android:exported="false" />
+        <activity android:name=".Activities.Water.waterreminder"
+            android:screenOrientation="portrait"/>
+
         <activity
             android:name=".Activities.LoginAndStarting.loginactivity"
             android:exported="false" />
         <activity
             android:name=".Activities.MainActivity.MainActivity"
             android:exported="true" />
+
         <activity
             android:name=".Activities.LoginAndStarting.Startpage"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,6 +35,7 @@
         </activity>
         <activity android:name=".Activities.medicaldetails" />
         <activity android:name=".Activities.LoginAndStarting.genderselection" />
+        <activity android:name=".Activities.Water.waternotificationsettings" />
     </application>
 
 </manifest>
