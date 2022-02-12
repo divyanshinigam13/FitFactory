@@ -36,6 +36,21 @@
         <activity android:name=".Activities.medicaldetails" />
         <activity android:name=".Activities.LoginAndStarting.genderselection" />
         <activity android:name=".Activities.Water.waternotificationsettings" />
+        <activity android:name=".Activities.ASANA.vrikshaasana" />
+        <activity android:name=".Activities.ASANA.virabhadraasana" />
+        <activity android:name=".Activities.ASANA.vajraasana" />
+        <activity android:name=".Activities.ASANA.trikonasana" />
+        <activity android:name=".Activities.ASANA.tadasana" />
+        <activity android:name=".Activities.ASANA.shavasana" />
+        <activity android:name=".Activities.ASANA.Pranayaam" />
+        <activity android:name=".Activities.ASANA.paschimottanasana" />
+        <activity android:name=".Activities.ASANA.hastuttanasana" />
+        <activity android:name=".Activities.ASANA.gomukhasana" />
+        <activity android:name=".Activities.ASANA.bhujangasana" />
+        <activity android:name=".Activities.ASANA.chakraasana" />
+        <activity android:name=".Activities.AllPosture.Yoga_postures" />
+        <activity android:name=".Activities.oxygencalculator" />
+        <activity android:name=".Activities.Oxygenprocess" />
     </application>
 
 </manifest>
