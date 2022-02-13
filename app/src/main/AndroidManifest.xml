@@ -22,7 +22,12 @@
         <activity
             android:name=".Activities.MainActivity.MainActivity"
             android:exported="true" />
-
+        <activity
+            android:name=".Activities.Bmi.DietPlanner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.Bmi.DietChart"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activities.LoginAndStarting.Startpage"
             android:exported="true">
@@ -51,6 +56,8 @@
         <activity android:name=".Activities.AllPosture.Yoga_postures" />
         <activity android:name=".Activities.oxygencalculator" />
         <activity android:name=".Activities.Oxygenprocess" />
+        <activity android:name=".Activities.Bmi.BmiCalculator"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

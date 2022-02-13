@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FitFactory</string>
+    <string-array name="type">
+        <item>"ft"</item>
+        <item>"cm"</item>
+    </string-array>
 </resources>

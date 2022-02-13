@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chart_back"
+    >
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:id="@+id/time1"
+
+        android:text="8:00"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@drawable/chart_back2"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/menu"
+        android:padding="5dp"
+        android:text="egg"
+        android:layout_toRightOf="@+id/time1"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

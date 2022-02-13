@@ -16,7 +16,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-import com.example.FitFactory.R;
+import com.example.fitfactory.R;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
